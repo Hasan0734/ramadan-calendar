@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Kalpana';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../public/fonts/KalpanaANSI.woff') format('woff'),
+        url('../public/fonts/KalpanaANSI.ttf') format('truetype')
+}
+
+
+
+body {
+    font-family: Kalpana;
+}
+
+.full_container {
+    background-image: url(../public/image/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title {
+    font-family: Kalpana ANSI !important;
+}
