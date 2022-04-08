@@ -5,11 +5,17 @@
 }
 
 @font-face {
-    font-family: 'Kalpana';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../public/fonts/KalpanaANSI.woff') format('woff'),
-        url('../public/fonts/KalpanaANSI.ttf') format('truetype')
+    font-family: 'MyWebFont';
+    src: url('../public/fonts/Kalpana ANSI.eot');
+    /* IE9 Compat Modes */
+    src: url('../public/fonts/Kalpana ANSI.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../public//fonts/KalpanaANSI.woff') format('woff'),
+        /* Modern Browsers */
+        url('../public/fonts/KalpanaANSI.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../public/fonts//KalpanaANSI.svg#svgFontName') format('svg');
+    /* Legacy iOS */
 }
 
 
@@ -19,11 +25,10 @@ body {
 }
 
 .full_container {
-    background-image: url(../public/image/bg.png);
+    background: url('../public/image/Asset-7.png') top left no-repeat, url('../public/image/Asset-8.png') top right no-repeat, url('../public/image/Asset-9.png') bottom left no-repeat, url('../public/image/Asset-10.png') bottom right no-repeat;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .title {
-    font-family: Kalpana ANSI !important;
+    font-family: MyWebFont !important;
 }
